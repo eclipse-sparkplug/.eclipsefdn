@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-sparkplug') {
+orgs.newOrg('iot.sparkplug', 'eclipse-sparkplug') {
   settings+: {
     description: "",
     name: "Sparkplug®",
